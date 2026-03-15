@@ -24,8 +24,8 @@ body {
   background-color: oklch(87.2% 0.01 258.338);
 
   /* 把 SVG 作为遮罩引入 */
-  -webkit-mask-image: url('./public/rat-fill.svg');
-  mask-image: url('./public/rat-fill.svg');
+  -webkit-mask-image: url('./logo/rat-fill.svg');
+  mask-image: url('./logo/rat-fill.svg');
 
   /* 控制遮罩的大小和位置，类似 background-size */
   -webkit-mask-size: contain;
