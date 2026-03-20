@@ -1,0 +1,60 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Build outputs
+dist/
+build/
+out/
+*.min.js
+*.min.css
+
+# Development cache
+.vite/
+.cache/
+.nuxt/
+.next/
+*.cache
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+~$*
+.DS_Store
+Thumbs.db
+
+# OS generated
+*.DS_Store
+*.Spotlight-V100
+*.Trashes
+*.fseventsd
+
+# Environment files (optional)
+.env
+.env.local
+.env.development
+.env.production
+
+# Temporary files
+*.temp
+*.bak
+*.backup
+
+# VitePress 构建产物与缓存
+.vitepress/dist/
+.vitepress/cache/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Video no
+*.mp4
