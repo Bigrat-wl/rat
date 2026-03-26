@@ -58,3 +58,6 @@ pnpm-debug.log*
 
 # Video no
 *.mp4
+
+# claude
+.claude

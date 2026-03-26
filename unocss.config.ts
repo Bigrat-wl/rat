@@ -5,11 +5,12 @@ import {
   presetIcons,
   presetTypography,
   presetUno,
+  presetWind3,
 } from 'unocss';
 
 export default defineConfig({
   presets: [
-    presetUno(), // 核心预设，提供类似 Tailwind 的原子化类名
+    presetWind3(), // 核心预设，提供类似 Tailwind 的原子化类名
     presetAttributify(), // 属性化模式，可以直接写 <div flex bg-red></div>
     presetIcons({
       scale: 1.2,
@@ -22,5 +23,9 @@ export default defineConfig({
     colors: {
       primary: '#3eaf7c', // 自定义一个主题色
     },
+  },
+
+  shortcuts: {
+    'icon-base': 'text-4.8 inline-block align-middle',
   },
 });

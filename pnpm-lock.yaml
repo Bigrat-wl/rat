@@ -8,6 +8,12 @@ importers:
 
   .:
     devDependencies:
+      '@iconify-json/carbon':
+        specifier: ^1.2.19
+        version: 1.2.19
+      '@iconify-json/tabler':
+        specifier: ^1.2.32
+        version: 1.2.32
       '@unocss/preset-typography':
         specifier: ^66.6.7
         version: 66.6.7
@@ -292,8 +298,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@iconify-json/carbon@1.2.19':
+    resolution: {integrity: sha512-l89XjtEeSA5fxlxPTNSU9AA+rxaz/Dn0X/ux0/3awR+tAayY8iJqWQu3AKxhchfx3LB/fX1Nv3ZppZzrBAt7aA==}
+
   '@iconify-json/simple-icons@1.2.74':
     resolution: {integrity: sha512-yqaohfY6jnYjTVpuTkaBQHrWbdUrQyWXhau0r/0EZiNWYXPX/P8WWwl1DoLH5CbvDjjcWQw5J0zADhgCUklOqA==}
+
+  '@iconify-json/tabler@1.2.32':
+    resolution: {integrity: sha512-0UlpROc9X0VrqJLeE87o3JLsQauHMhj82GnH9TkPaymhBeS9wPB3NOqxQyzw+MHgPL08uVSggwfkTaoRfhQ+RQ==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -1474,7 +1486,15 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
+  '@iconify-json/carbon@1.2.19':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/simple-icons@1.2.74':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/tabler@1.2.32':
     dependencies:
       '@iconify/types': 2.0.0
 

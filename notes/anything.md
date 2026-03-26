@@ -29,3 +29,22 @@
 ## 管整个网站骨架的地方是 `.vitepress/theme/Layout.vue`
 
 你只需要在这个文件里写好全局的导航栏（包含明暗切换和 GitHub 链接），并在主干位置放上 `<Content />` 组件，VitePress 就会自动把你写的每一个 Markdown 文件“塞”进这个骨架里。
+
+
+## 问题清单
+- [ ] 本地开发热更新闪屏
+
+- [ ] 引用的 svg 的大小一般如何去设置
+
+- [ ] 图标和文本的对齐
+
+- [ ] 矢量图 icon 点击穿透
+
+- [ ] public文件夹的用法
+
+- [ ] 包管理器如何选择
+
+- [ ] normalize.css 有哪几种引用方法
+
+- [ ] 模块系统： CommonJS vs ES Modules
+- [ ] Node 对 .js 的判定规则
